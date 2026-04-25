@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: linear-gradient(-45deg, #1e3c72, #2a5298, #6dd5ed, #2193b0);
+    background-size: 400% 400%;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+h2,
+p {
+    background: white;
+    margin: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+h2:hover,
+p:hover {
+    transform: scale(1.02);
+}
+
+img {
+    border-radius: 10px;
+    margin: 10px;
+    transition: 0.3s;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
+div {
+    text-align: center;
+}
+
+
+.bloco {
+    display: flex;
+    align-items: center;
+    background: white;
+    margin: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    gap: 15px;
+}
+
+.bloco img {
+    width: 220px;
+    height: auto;
+}
+
+.bloco p {
+    margin: 0;
+    background: none;
+}
